@@ -1,0 +1,63 @@
+.header{
+    background-color: #eee9e8;
+    position: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 0%;
+    left: 0%;
+    /* height: 100vh;; */
+}
+
+
+/* Настройка для логотипа слева */
+
+
+.logo-left{
+    /* display: flex; */
+    /* margin: 0; */
+    margin-left: 40px;
+}
+
+
+.logo-left .first-text{
+    color: #6c788c;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.logo-left .second-text{
+    letter-spacing: 3px;
+    color: #6c788c;
+    margin: 0;  
+    /* margin-left: 20px; */
+    margin-bottom: 15px;
+    /* justify-content: right; */
+}
+
+
+/* Насйтрока для меню справа */
+
+
+.menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.menu-ul_header{
+    display: flex;
+    list-style: none;
+}
+
+
+.menu-ul_header li{
+    margin-right: 40px;
+}
+
+
+.menu-ul_header a{
+    color: black;
+    text-decoration: none;
+}
