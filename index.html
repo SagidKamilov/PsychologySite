@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="styles/menu.css" type="text/css" rel="stylesheet">
         <link href="styles/header.css" type="text/css" rel="stylesheet">
+        <link href="styles/main.css" type="text/css" rel="stylesheet">
+        <link href="styles/footer.css" type="text/css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="description" content="Женский психолог. Ростов-на-Дону">
         <meta name="keywords" content="Ростов-на-Дону, психолог, женщина, помощь психолога, психологиня, психолог ростов, психолог ростов-на-Дону">
@@ -15,7 +17,7 @@
                     Галина Абакарова
                 </h1>
                 <p class="second-text">
-                    Женский психолог
+                    Мастер трансформации
                 </h3>
             </div>
 
@@ -35,6 +37,44 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="menu_div-up">
+                    <ul class="mobile-list-menu">
+                        <li class="">
+                            <a href="#about" id="mobile-link">Кто Я</a>
+                        </li>
+                        <li class="">
+                            <a href="#mission" id="mobile-link">Миссия</a>
+                        </li>
+                        <li class="">
+                            <a href="#myaway" id="mobile-link">Мои способы</a>
+                        </li>
+                        <li class="">
+                            <a href="#comments" id="mobile-link">Комментарии</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social-media_div-down">
+                    <ul class="social-media-list-menu">
+                        <li class="">
+                            <a href="https://blog.galinaabakarova.ru" target="_blank"><img src="icons/blog.png" width="40" height="40"></a>
+                        </li>
+                        <li class="">
+                            <a href="" target="_blank"><img src="icons/telegram.png" width="40" height="40"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hidden-menu-right">
+                <div class="menu-btn" id="menu-mob-btn">
+                    <span id="menu-line-one"></span>
+                    <span id="menu-line-one"></span>
+                    <span id="menu-line-three"></span>
+                </div>
+            </div>
         </header>
         
         <!-- Несколько ключевыхх блоков -->
@@ -42,20 +82,20 @@
             <div id="about">
                 <div class="text-about">
                     <div class="h-about">
-                        <h3 class="main-about">
+                        <h1 class="main-about">
                             Тестовая информация
-                        </h3>
+                        </h1>
                     </div>
-                     <div class="p-about">
+                    <div class="p-about">
                         <p class="down-about-one">
                             Тестовая информация Тестовая информация Тестовая информация Тестовая информация Тестовая информация
                         </p>
                         <p class="down-about-two">
                             Тестовая информация Тестовая информация Тестовая информация Тестовая информация Тестовая информация
                         </p>
-                     </div>
-                     <div class="btn-about">
-                        <input class="button-about_txt" type="button" value="Дискуссирование">
+                    </div>
+                    <div class="btn-about">
+                        <a href="" class="button-about_txt">Дискуссирование</a>
                     </div>
                 </div>
                 <div class="photo-about">
@@ -73,16 +113,16 @@
                             Тестовая информация
                         </h3>
                     </div>
-                     <div class="p-mission">
+                    <div class="p-mission">
                         <p class="down-mission-one">
                             Тестовая информация Тестовая информация Тестовая информация Тестовая информация Тестовая информация
                         </p>
                         <p class="down-mission-two">
                             Тестовая информация Тестовая информация Тестовая информация Тестовая информация Тестовая информация
                         </p>
-                     </div>
-                     <div class="btn-mission">
-                        <input class="button-mission" type="button" value="Подробнее">
+                    </div>
+                    <div class="btn-mission">
+                        <a href="" class="button-mission_txt">Какой-то текст</a>
                     </div>
                 </div>
             </div>
@@ -127,11 +167,9 @@
 
                 <div class="buttons-comment">
                     <div class="button-right">
-
                     </div>
 
                     <div class="button-left">
-
                     </div>
                 </div>
             </div>
@@ -140,18 +178,25 @@
         <!-- Ноги сайта с политикой конфеденциальности и прочим -->
         <footer class="footer">
             <div class="social-network">
+                <a href="" target="_blank" class="instagram-social social-media__link"><img src="icons/instagram-squad.png" width="40px" height="40px"></a>
+                <a href="" target="_blank" class="telegram-social social-media__link"><img src="icons/telegram-squad.png" width="40px" height="40px"></a>
+                <a href="" target="_blank" class=""><img src=""></a>
             </div>
 
-            <div class="privacy-police">
-            </div>
+            <div class="other-elements">
+                <div class="privacy-police">
+                    <a href="static/privacy_policy.html">Политика конфеденциальности</a>
+                </div>
 
-            <div class="user-agreement">
+                <div class="user-agreement">
+                    <a href="static/user_agreement.html">Пользовательское соглашение</a>
+                </div>
 
-            </div>
-
-            <div class="copyright">
-
+                <div class="copyright">
+                    <a href="static/copyright.html">Авторские права</a>
+                </div>
             </div>
         </footer>
+    <script src="js/scripts.js"></script>
     </body>
 </html>

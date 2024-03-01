@@ -1,0 +1,90 @@
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.text-about{
+    color: white;
+    background-color: #5f7367;
+    border: 1px solid black;
+    padding: 100px 50px;
+}
+
+
+.btn-about a{
+    text-decoration: none;
+    color: black;   
+    background-color: white;
+    padding: 10px;
+}
+
+
+.photo-about{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 740px){ 
+    #about{
+        display: block;
+    }
+
+    .text-about{
+        padding: 50px 25px;
+    }
+}
+
+
+/* Блок "mission" */
+
+
+#mission{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media screen and (max-width: 740px){ 
+    #mission{
+        display: block;
+    }
+
+    .text-mission{
+        padding: 50px 25px;
+    }
+}
+
+/* Блок "myaway" */
+
+
+#myaway{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.text-mission{
+    color: black;
+    background-color: #eee6e3;
+    border: 1px solid black;
+    padding: 100px 50px;
+}
+
+
+.btn-mission a{
+    text-decoration: none;
+    color: white;   
+    background-color: #5f7367;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 740px){ 
+    #myaway{
+        display: block;
+    }
+
+    .text-myaway{
+        padding: 50px 25px;
+    }
+}

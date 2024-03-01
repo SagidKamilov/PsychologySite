@@ -1,0 +1,25 @@
+.footer{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+
+.social-network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-media__link{
+    padding: 10px;
+}
+
+
+.other-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
