@@ -1,3 +1,6 @@
+/* Блок "about" */
+
+
 #about{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,8 +24,16 @@
 
 
 .photo-about{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
+
+
+@media screen and (min-width: 740px){
+    #about{
+        height: 100vh;
+    }
+}
+
 
 @media screen and (max-width: 740px){ 
     #about{
@@ -44,25 +55,6 @@
 }
 
 
-@media screen and (max-width: 740px){ 
-    #mission{
-        display: block;
-    }
-
-    .text-mission{
-        padding: 50px 25px;
-    }
-}
-
-/* Блок "myaway" */
-
-
-#myaway{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 .text-mission{
     color: black;
     background-color: #eee6e3;
@@ -79,6 +71,46 @@
 }
 
 
+@media screen and (min-width: 740px){
+    #mission{
+        height: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 740px){ 
+    #mission{
+        display: block;
+    }
+
+    .text-mission{
+        padding: 50px 25px;
+    }
+}
+
+
+/* Блок "myaway" */
+
+
+#myaway{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.text-myaway{
+    color: black;
+    padding: 100px 50px;
+}
+
+
+@media screen and (min-width: 740px){
+    #myaway{
+        height: 100vh;
+    }
+}
+
+
 @media screen and (max-width: 740px){ 
     #myaway{
         display: block;
@@ -86,5 +118,40 @@
 
     .text-myaway{
         padding: 50px 25px;
+    }
+}
+
+
+/* Блок "comments" */
+
+
+#comments{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comments-cards{
+    display: flex;
+}
+
+
+.comments-card{
+    border: 1px solid black;
+}
+
+
+@media screen and (min-width: 740px){
+    #comments{
+        height: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 740px){ 
+    #comments{
+        display: block;
     }
 }

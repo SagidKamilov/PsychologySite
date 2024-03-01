@@ -1,7 +1,8 @@
 .footer{
-    border: 1px solid black;
+    height: 15vh;
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid black;
 }
 
 
@@ -13,13 +14,25 @@
 
 
 .social-media__link{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 
 .other-elements{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+.other-elements__div{
+    margin: 2px;
+}
+
+
+.other-elements__div a{
+    color: black;
+    text-decoration: none;
 }
